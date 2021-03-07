@@ -24,10 +24,26 @@ body {
   font-size: 4rem;
   color: white;
 }
+#home-div {
+  /* border: 1px solid red; */
+  width: 40%;
+  margin-top: 14rem;
+  height: 60%;
+}
 #description {
+  margin-top: 8rem;
+  margin-left: 2rem;
   font-family: "M PLUS Rounded 1c", sans-serif;
   color: white;
   font-size: 2em;
   font-style: italic;
   font-weight: 500;
+}
+#menu-btn {
+  display: block;
+  margin-top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8rem;
+  height: 2rem;
 }
