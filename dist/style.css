@@ -16,6 +16,8 @@ body {
   display: block;
   height: 100vh;
   width: 100%;
+  margin: 0;
+  overflow: auto;
 }
 #rest-name {
   margin: 0;
@@ -25,13 +27,12 @@ body {
   color: white;
 }
 #home-div {
+  margin-top: 13rem;
   /* border: 1px solid red; */
   width: 40%;
-  margin-top: 14rem;
   height: 60%;
 }
-#description {
-  margin-top: 8rem;
+.description {
   margin-left: 2rem;
   font-family: "M PLUS Rounded 1c", sans-serif;
   color: white;
