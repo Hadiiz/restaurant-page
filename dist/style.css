@@ -9,25 +9,27 @@ body {
   height: 100vh;
   width: 100%;
   display: block;
+  overflow-y: hidden;
 }
 #home {
   background-image: url("/img/bg.jpg");
   background-size: cover;
   display: block;
-  height: 100vh;
+  height: 93vh;
   width: 100%;
   margin: 0;
   overflow: auto;
+  overflow-y: hidden;
 }
 #rest-name {
   margin: 0;
   font-weight: 200;
   font-family: "Alegreya Sans SC", sans-serif;
   font-size: 4rem;
-  color: white;
+  color: black;
 }
 #home-div {
-  margin-top: 13rem;
+  margin-top: 10%;
   /* border: 1px solid red; */
   width: 40%;
   height: 60%;
@@ -47,4 +49,20 @@ body {
   margin-right: auto;
   width: 8rem;
   height: 2rem;
+}
+
+#menu-bar {
+  display: flex;
+}
+#menu {
+  margin-left: auto;
+  /* border: 1px solid red; */
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.menu-item {
+  margin-right: 5rem;
+  /* border: 1px solid green; */
+  padding: 10px 40px 10px 40px;
 }

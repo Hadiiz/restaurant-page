@@ -1,5 +1,4 @@
 const load_home_page = function (element) {
-  element.innerHTML = "";
   const home = document.createElement("div");
   home.id = "home";
 
@@ -32,7 +31,6 @@ export default load_home_page;
 
 /*
 <div id="home">
-        <h2 id="rest-name">Shinkō</h2>
         <div id="home-div">
           <p class="description">
             Together with you is my favorite place to be.
