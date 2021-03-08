@@ -15,7 +15,7 @@ body {
   background-image: url("/img/bg.jpg");
   background-size: cover;
   display: block;
-  height: 93vh;
+  height: 100%;
   width: 100%;
   margin: 0;
   overflow: auto;
@@ -23,10 +23,11 @@ body {
 }
 #rest-name {
   margin: 0;
+  margin-left: 2rem;
   font-weight: 200;
   font-family: "Alegreya Sans SC", sans-serif;
-  font-size: 4rem;
-  color: black;
+  font-size: 3rem;
+  color: whitesmoke;
 }
 #home-div {
   margin-top: 10%;
@@ -53,6 +54,7 @@ body {
 
 #menu-bar {
   display: flex;
+  background-color: #e63946;
 }
 #menu {
   margin-left: auto;
@@ -60,9 +62,17 @@ body {
   display: flex;
   list-style: none;
   align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .menu-item {
   margin-right: 5rem;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
   /* border: 1px solid green; */
   padding: 10px 40px 10px 40px;
+  text-align: center;
+  align-items: center;
 }
